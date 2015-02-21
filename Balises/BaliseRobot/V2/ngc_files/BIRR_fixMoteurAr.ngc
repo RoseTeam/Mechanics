@@ -1,0 +1,111 @@
+(Generated with: DXF2GCODE, Version: PyQt4 Beta, Date: $Date:: 2015-02-04 13:44:52#$)
+(Created from file: /home/bp/Documents/Usinages/Balises/BIRR_fixMoteurAr.dxf)
+(Time: Mon Feb 16 19:05:28 2015)
+G21 (Units in millimeters) (PLEASE CHECK TOOL WITH EMC2 TOOL TABLE) G90 (Absolute programming) G64 (Default cutting) G17 (XY plane) G40 (Cancel radius comp.) G49 (Cancel length comp.)
+G0 Z  15.000 
+
+(*** LAYER: 0 ***)
+T1 M6
+S6000
+
+(* SHAPE Nr: 0 *)
+G0 X -19.821 Y   7.722
+M3 M8
+G42
+F120
+G1 X -19.821 Y   7.015
+G2 X -21.235 Y   7.015 I  -0.707 J   0.707
+G0 Z   3.000 
+F40
+G1 Z  -1.000
+F120
+G2 X  -4.265 Y  23.985 I   8.485 J   8.485
+G2 X -21.235 Y   7.015 I  -8.485 J  -8.485
+F40
+G1 Z  -2.000
+F120
+G2 X  -4.265 Y  23.985 I   8.485 J   8.485
+G2 X -21.235 Y   7.015 I  -8.485 J  -8.485
+F40
+G1 Z   3.000
+G0 Z  15.000 
+G40
+
+(* SHAPE Nr: 1 *)
+G0 X   1.250 Y   2.500
+G42
+F120
+G1 X   0.750 Y   2.000
+G2 X  -0.250 Y   3.000 I   0.000 J   1.000
+G0 Z   3.000 
+F40
+G1 Z  -1.000
+F120
+G1 X  -0.250 Y  29.000
+G1 X  17.750 Y  29.000
+G1 X  17.750 Y   3.000
+G1 X  -0.250 Y   3.000
+F40
+G1 Z  -2.000
+F120
+G1 X  -0.250 Y  29.000
+G1 X  17.750 Y  29.000
+G1 X  17.750 Y   3.000
+G1 X  -0.250 Y   3.000
+F40
+G1 Z   3.000
+G0 Z  15.000 
+G40
+
+(* SHAPE Nr: 2 *)
+G0 X  -2.750 Y  -1.500
+G42
+F120
+G1 X  -3.250 Y  -1.000
+G2 X  -2.250 Y   0.000 I   1.000 J  -0.000
+G0 Z   3.000 
+F40
+G1 Z  -1.000
+F120
+G1 X  27.750 Y   0.000
+G1 X  27.750 Y  15.000
+G1 X  22.750 Y  15.000
+G1 X  22.750 Y  17.000
+G1 X  27.750 Y  17.000
+G1 X  27.750 Y  32.000
+G1 X  -2.250 Y  32.000
+G1 X  -2.250 Y  27.000
+G1 X  -4.250 Y  27.000
+G1 X  -4.250 Y  32.000
+G1 X -27.750 Y  32.000
+G1 X -27.750 Y   0.000
+G1 X  -4.250 Y   0.000
+G1 X  -4.250 Y   4.000
+G1 X  -2.250 Y   4.000
+G1 X  -2.250 Y   0.000
+F40
+G1 Z  -2.000
+F120
+G1 X  27.750 Y   0.000
+G1 X  27.750 Y  15.000
+G1 X  22.750 Y  15.000
+G1 X  22.750 Y  17.000
+G1 X  27.750 Y  17.000
+G1 X  27.750 Y  32.000
+G1 X  -2.250 Y  32.000
+G1 X  -2.250 Y  27.000
+G1 X  -4.250 Y  27.000
+G1 X  -4.250 Y  32.000
+G1 X -27.750 Y  32.000
+G1 X -27.750 Y   0.000
+G1 X  -4.250 Y   0.000
+G1 X  -4.250 Y   4.000
+G1 X  -2.250 Y   4.000
+G1 X  -2.250 Y   0.000
+F40
+G1 Z   3.000
+G0 Z  15.000 
+G40
+M9 M5
+G0 X   0.000 Y   0.000
+G40 G53 G0 X0 Y0 Z0 M2 (Program end)
