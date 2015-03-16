@@ -1,0 +1,29 @@
+(Generated with: DXF2GCODE, Version: PyQt4 Beta, Date: $Date:: 2015-02-04 13:44:52#$)
+(Created from file: /home/bp/Documents/Usinages/Balises/BIRR_V2/BIRR_PCB_lateral.dxf)
+(Time: Sun Mar  1 17:18:04 2015)
+G21 (Units in millimeters) (PLEASE CHECK TOOL WITH EMC2 TOOL TABLE) G90 (Absolute programming) G64 (Default cutting) G17 (XY plane) G40 (Cancel radius comp.) G49 (Cancel length comp.)
+G0 Z  15.000 
+
+(*** LAYER: 0 ***)
+T1 M6
+S6000
+
+(* SHAPE Nr: 0 *)
+G0 X  -6.500 Y  -0.500
+M3 M8
+G41
+F40
+G1 X  -6.000 Y  -1.000
+G3 X  -5.000 Y   0.000 I   0.000 J   1.000
+G0 Z   3.000 
+G1 Z  -1.600
+G1 X  -5.000 Y  60.000
+G1 X   5.000 Y  60.000
+G1 X   5.000 Y   0.000
+G1 X  -5.000 Y   0.000
+G1 Z   3.000
+G0 Z  15.000 
+G40
+M9 M5
+G0 X   0.000 Y   0.000
+G40 G53 G0 X0 Y0 Z0 M2 (Program end)
