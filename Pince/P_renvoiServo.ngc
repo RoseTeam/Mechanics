@@ -1,0 +1,47 @@
+(Generated with: DXF2GCODE, Version: PyQt4 Beta, Date: $Date:: 2015-02-04 13:44:52#$)
+(Created from file: /home/bp/Documents/Usinages/Pince/export15gear/renvoiServo.dxf)
+(Time: Thu Apr  2 00:09:50 2015)
+G21 (Units in millimeters) (PLEASE CHECK TOOL WITH EMC2 TOOL TABLE) G90 (Absolute programming) G64 (Default cutting) G17 (XY plane) G40 (Cancel radius comp.) G49 (Cancel length comp.)
+G0 Z  15.000 
+
+(*** LAYER: servo ***)
+T3 M6
+S6000
+
+(* SHAPE Nr: 2 *)
+G0 X   0.966 Y  -1.736
+M3 M8
+G41
+F80
+G1 X   2.766 Y  -1.633
+G3 X   1.876 Y   1.788 I  -2.156 J   1.266
+G0 Z   3.000 
+F40
+G1 Z  -1.500
+F80
+G2 X   1.121 Y   7.761 I   1.924 J   3.277
+G2 X  55.791 Y   7.761 I  27.335 J -27.502
+G2 X  55.036 Y   1.788 I  -2.679 J  -2.695
+G1 X  52.880 Y   0.523
+G2 X  48.330 Y   1.053 I  -1.924 J   3.277
+G3 X   8.581 Y   1.053 I -19.874 J -20.794
+G2 X   4.032 Y   0.523 I  -2.626 J   2.747
+G1 X   1.876 Y   1.788
+F40
+G1 Z  -3.000
+F80
+G2 X   1.121 Y   7.761 I   1.924 J   3.277
+G2 X  55.791 Y   7.761 I  27.335 J -27.502
+G2 X  55.036 Y   1.788 I  -2.679 J  -2.695
+G1 X  52.880 Y   0.523
+G2 X  48.330 Y   1.053 I  -1.924 J   3.277
+G3 X   8.581 Y   1.053 I -19.874 J -20.794
+G2 X   4.032 Y   0.523 I  -2.626 J   2.747
+G1 X   1.876 Y   1.788
+F40
+G1 Z   3.000
+G0 Z  15.000 
+G40
+M9 M5
+G0 X   0.000 Y   0.000
+G40 G53 G0 X0 Y0 Z0 M2 (Program end)
