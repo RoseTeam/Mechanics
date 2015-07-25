@@ -1,0 +1,102 @@
+(Generated with: DXF2GCODE, Version: PyQt4 Beta, Date: $Date:: 2015-02-04 13:44:52#$)
+(Created from file: /home/bp/Documents/Usinages/BaseRoulante/BR_plaqueRoueInt.dxf)
+(Time: Sat Apr 25 10:26:58 2015)
+G21 (Units in millimeters) (PLEASE CHECK TOOL WITH EMC2 TOOL TABLE) G90 (Absolute programming) G64 (Default cutting) G17 (XY plane) G40 (Cancel radius comp.) G49 (Cancel length comp.)
+G0 Z  15.000 
+
+(*** LAYER: 0 ***)
+T2 M6
+S6000
+
+(* SHAPE Nr: 1 - Axe *)
+G0 X  -1.121 Y   0.293
+M3 M8
+G42
+F120
+G1 X  -1.534 Y   2.121
+G2 X   2.121 Y   2.121 I   1.828 J  -1.828
+G0 Z   3.000 
+F40
+G1 Z  -1.500
+F120
+G2 X  -2.121 Y  -2.121 I  -2.121 J  -2.121
+G2 X   2.121 Y   2.121 I   2.121 J   2.121
+F40
+G1 Z  -3.000
+F120
+G2 X  -2.121 Y  -2.121 I  -2.121 J  -2.121
+G2 X   2.121 Y   2.121 I   2.121 J   2.121
+F40
+G1 Z   3.000
+G0 Z  15.000 
+G40
+
+(* SHAPE Nr: 2 - Vis # 1 *)
+G0 X   1.828 Y  17.414
+G42
+F120
+G1 X   2.242 Y  15.586
+G2 X  -1.414 Y  15.586 I  -1.828 J   1.828
+G0 Z   3.000 
+F40
+G1 Z  -1.500
+F120
+G2 X   1.414 Y  18.414 I   1.414 J   1.414
+G2 X  -1.414 Y  15.586 I  -1.414 J  -1.414
+F40
+G1 Z  -3.000
+F120
+G2 X   1.414 Y  18.414 I   1.414 J   1.414
+G2 X  -1.414 Y  15.586 I  -1.414 J  -1.414
+F40
+G1 Z   3.000
+G0 Z  15.000 
+G40
+
+(* SHAPE Nr: 3 - Vis #2 *)
+G0 X  -1.828 Y -17.414
+G42
+F120
+G1 X  -2.242 Y -15.586
+G2 X   1.414 Y -15.586 I   1.828 J  -1.828
+G0 Z   3.000 
+F40
+G1 Z  -1.500
+F120
+G2 X  -1.414 Y -18.414 I  -1.414 J  -1.414
+G2 X   1.414 Y -15.586 I   1.414 J   1.414
+F40
+G1 Z  -3.000
+F120
+G2 X  -1.414 Y -18.414 I  -1.414 J  -1.414
+G2 X   1.414 Y -15.586 I   1.414 J   1.414
+F40
+G1 Z   3.000
+G0 Z  15.000 
+G40
+
+(* SHAPE Nr: 0 - Contour *)
+G0 X -20.990 Y -19.576
+G42
+F120
+G1 X -21.404 Y -17.748
+G2 X -17.748 Y -17.748 I   1.828 J  -1.828
+G0 Z   3.000 
+F40
+G1 Z  -1.500
+F120
+G3 X  17.748 Y  17.748 I  17.748 J  17.748
+G3 X -17.748 Y -17.748 I -17.748 J -17.748
+F40
+G1 Z  -3.000
+F120
+G3 X  17.748 Y  17.748 I  17.748 J  17.748
+G3 X -17.748 Y -17.748 I -17.748 J -17.748
+F40
+G1 Z   3.000
+G0 Z  15.000 
+G40
+M9 M5
+
+G0 X   0.000 Y   0.000
+G40 G53 G0 X0 Y0 Z0 M2 (Program end)
